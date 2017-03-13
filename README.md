@@ -1,5 +1,9 @@
 #OpenCV
 
+##OpenCVdefault
+	only usable OpenCV
+	nothing to do
+
 ##facedetect
 	17.2.19 error camera
 	'it seems that you device does not support camera (or it is locked).
