@@ -26,3 +26,7 @@
 
 	only camera in OpenCV.
 	runtime error
+
+## Facedetect
+	Opencv facedetect camera.
+	Only face detect.
