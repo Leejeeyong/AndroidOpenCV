@@ -1,5 +1,7 @@
 package com.example.leejy.examples001;
 
+import android.app.Activity;
+import android.content.pm.PackageManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -63,10 +65,12 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i(TAG1, "called onCreate");
         super.onCreate(savedInstanceState);
+
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         setContentView(R.layout.activity_main);
@@ -121,4 +125,6 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
     public void onCameraViewStopped() {
 
     }
+
+
 }
